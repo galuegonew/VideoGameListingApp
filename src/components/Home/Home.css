@@ -1,0 +1,82 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media (max-width: 600px) {
+    #home-header-container{
+        border-radius: 3rem;
+        color: red;
+        background-color: purple;
+    }
+
+    #home-header-container b {
+        color: red;
+        font-size: x-small;
+        padding-top: 0.25rem;
+    }
+}
+
+#home-header-container{
+    height: 4rem;
+    width: 35rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    border-radius: .5rem;
+    -moz-box-shadow: 10px 10px 10px #000000;
+    -webkit-box-shadow: 10px 10px 16px #000000;
+    box-shadow: 10px 10px 16px #000000;
+    text-align: center;
+}
+
+#home-body-container{
+    height: 100%;
+    width: 55rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f7f7;
+    border-radius: .5rem;
+    text-align: center;
+    -moz-box-shadow: 10px 10px 10px #000000;
+    -webkit-box-shadow: 10px 10px 16px #000000;
+    box-shadow: 10px 10px 16px #000000;
+}
+
+#home-header-container b {
+    color: white;
+    font-size: x-large;
+    padding-top: 0.25rem;
+}
+
+#home-header-container p {
+    color: white;
+    padding-top: 0.25rem;
+}
+
+#tablepage-image, #chatbox-image, #login-or-signup-image, #stats-image, #moreinfo-image {
+    padding-bottom: 2.5rem;
+}
+
+#intro b, #image-label-1 b, #image-label-2 b, #image-label-3 b, #image-label-4 b, #image-label-5 b { 
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: underline;
+    font-size: large;
+}
+
+#image-label-1 p, #image-label-2 p, #image-label-3 p, #image-label-4 p, #image-label-5 p { 
+    width: 28.125rem;
+    margin: auto !important;
+    padding-bottom: 0.5rem;
+}

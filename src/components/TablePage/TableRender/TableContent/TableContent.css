@@ -1,0 +1,204 @@
+
+/*
+TABLE STARTS HERE
+*/
+
+.container .table-container {
+    height: fit-content;
+    min-height: 25rem;
+    max-height: 50rem;
+    min-width: 60rem;
+    width: 60rem !important;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.5rem;
+    background: #3298dc;
+    overflow-y:scroll !important;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.container .table {
+    font-size: 115% !important;
+    margin: auto;
+    overflow-y:scroll !important; 
+    /* test to see if y scrolls works without this */
+    background:#3298dc;
+    table-layout: fixed !important;
+}
+
+.container .table-container .table > thead > tr > th {
+    padding-bottom: 1rem !important;
+    padding-top: 0 !important;
+    padding: 1.5rem;
+    font-size: 120% !important;
+    text-align: center !important;
+    vertical-align: center !important;
+
+}
+
+.container .table-container .table > thead > tr > th > a {
+    text-align: center !important;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    margin: auto;
+    user-select: none;
+    color: white !important;
+    font-size: 100%;
+}
+
+.container .table .img {
+    height:3rem;
+    width: 3rem;
+}
+
+.container .table td {
+    /* padding: 1rem !important; */
+    font-size: 85% !important;
+    color: white !important;
+    /* word-break:break-word !important;
+    overflow-wrap: break-word !important; */
+}
+
+.container .table .item-data {
+    transition: background 0.35s ease;
+    
+}
+.container .table .item-data:hover {
+    background-color:hsl(204, 71%, 28%);
+
+}
+
+.container .table .item-rank {
+    font-size: 110% !important;
+    text-align: center !important;
+    vertical-align: center !important;
+}
+
+.container .table .item-title {
+    text-align: center !important;
+    vertical-align: center !important;
+    max-width: 11rem !important;
+}
+.container .table .item-progress {
+    text-align: center !important;
+    vertical-align: center !important;
+}
+.container .table .item-genre {
+    text-align: center !important;
+    vertical-align: center !important;
+    max-width: 8rem !important;
+}
+
+.container .table .item-rating {
+    font-size: 110% !important;
+    text-align: center !important;
+    vertical-align: center !important;
+}
+#editInput {
+    text-align: center !important;
+    width: 3rem;
+    margin: auto;
+}
+
+#title {
+    padding-left: .2rem !important;
+    padding-right: .2rem !important;
+}
+
+#logo {
+    padding-top: 1rem !important;
+    border: none !important;
+}
+
+.save-row {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left:1.3rem;
+    cursor: pointer;
+}
+
+.edit-row {
+    width: 1.4rem;
+    height: 1.4rem;
+    cursor: pointer;
+}
+
+.remove-row {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: .5rem !important;
+    cursor: pointer;
+}
+
+.add-row {
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    cursor: pointer;
+}
+.edit-remove {
+    border: none !important;
+    word-break: none !important;
+}
+.hidden {
+    display: none !important;
+}
+#control {
+    margin-top: .4rem !important;
+    height: fit-content;
+    width: fit-content;
+    margin: auto !important;
+}
+#logoHeader {
+    border: none;
+}
+
+.object-logo {
+    height: 2.1rem !important;
+    width: 2.3rem;
+    margin: auto !important;
+    /* margin-left:1.9rem !important; */
+    padding-left: none !important;
+}
+#search, #autoComplete {
+    width: 14rem !important;
+    height: .1rem;
+    font-size: 100%;
+    color: white !important;
+}
+#searchBox {
+    position: relative;
+    width: 14rem !important;
+    color: white !important;
+}
+
+#info-link{ 
+    cursor: pointer;
+}
+
+.table #info-link:hover {
+    color: yellow;
+}
+
+#sortable {
+    cursor: pointer;
+    color: white;
+}
+
+.container #empty-block {
+    color: #fff;
+    font-size: 110%;
+    text-align: center;
+    line-height: 100px;
+}

@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+#login-body {
+    height:100%;
+    width:100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #dbdbdb;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#login-content-container{
+    margin: auto;
+    width: 40rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    font-size: 115%;
+}
+
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+#account-form{
+    margin: auto;
+    display: flex;
+    width: 37rem;
+    padding: 0  !important;
+    font-weight: bold;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+    background-color: hsl(204, 86%, 53%) !important;
+    border-radius: .5rem !important;
+    -moz-box-shadow: 10px 10px 10px #000000;
+    -webkit-box-shadow: 10px 10px 16px #000000;
+    box-shadow: 10px 10px 16px #000000;
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+#login-form{
+
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+#login-container{
+    padding: 2rem !important;
+    margin: auto;
+    background-color: white !important;
+    border-radius: .5rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+/* #branding{
+    margin-right: 1rem !important;
+} */
+#title-container_ {
+    background-color: hsl(204, 86%, 53%);
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+    color: white !important;
+    font-size: 110%;
+    width: 16rem;
+    margin: auto !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem !important;
+    border-radius: .5rem;
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+
+}
+
+#login-logo{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 0 !important;
+}
+
+.title-header {
+    color: white;
+    font-style: oblique;
+    font-size: 125%;
+    text-align: center;
+}
+
+#signup-button{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    width: 4.5rem;
+}
+
+#login-button{
+    margin-top: 1rem;
+    width: 4.5rem;
+}
+
+.invalid-credentials-on{
+    color:indianred;
+    font-size: small;
+}
+
+#invalid-credential-container{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.psController{
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+} 

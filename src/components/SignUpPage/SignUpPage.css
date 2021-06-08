@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+#login-body {
+    height:100%;
+    width:100%;
+    background-color: #dbdbdb;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#login-content-container{
+    margin: auto;
+    width: 40rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    font-size: 115%;
+}
+
+#account-form{
+    margin: auto;
+    display: flex;
+    width: 37rem;
+    padding: 0  !important;
+    font-weight: bold;
+    background-color: hsl(204, 86%, 53%) !important;
+    border-radius: .5rem !important;
+    -moz-box-shadow: 10px 10px 10px #000000;
+    -webkit-box-shadow: 10px 10px 16px #000000;
+    box-shadow: 10px 10px 16px #000000;
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+#login-form{
+
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+#login-container{
+    padding: 2rem !important;
+    margin: auto;
+    background-color: white !important;
+    border-radius: .5rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#title-container__ {
+    background-color: hsl(204, 86%, 53%);
+    color: white !important;
+    font-size: 110%;
+    width: 16rem;
+    margin: auto !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem !important;
+    border-radius: .5rem;
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+
+}
+
+#login-logo{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 0 !important;
+}
+
+#signup-button{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    width: 4.5rem;
+}
+
+.title-header {
+    color: white;
+    font-style: oblique;
+    font-size: 125%;
+    text-align: center;
+}
+
+.invalid-password-on{
+    color:indianred;
+    font-size: small;
+}
+
+.invalid-username-on{
+    color: indianred;
+    font-size: small;
+}

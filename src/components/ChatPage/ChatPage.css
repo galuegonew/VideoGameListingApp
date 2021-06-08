@@ -1,0 +1,105 @@
+#chat-container #input-form{
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    width: 40rem;
+    background-color: #3298dc;
+    border-radius: .5rem;
+    display: flex;
+    margin: auto;
+    margin-top: .5rem !important;
+    height: 4rem !important
+}
+#chat-container #name-label{
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#text-field{
+    width: fit-content;
+    margin-left: 1rem !important;
+    height: fit-content;
+    margin-bottom: .4rem !important;
+}
+
+#chat-container{
+    margin-top: 5rem !important;
+}
+.render-chat {
+    background-color: rgba(255, 255, 255, 0.672);
+    border-radius: .5rem;
+    border: solid 4px #3298dc;
+    margin: auto;
+    width: 40rem;
+    height: 30rem;
+    padding: 2rem !important;
+    overflow-y: scroll;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+}
+
+#send-button{
+    margin: auto;
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
+    height: 1.9rem !important;
+}
+#outlined-multiline-static{
+    width: 32.5rem !important;
+    height: 1rem !important;
+    color: white;
+    margin-bottom: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+#chat-title{
+    margin: auto !important;
+    width: fit-content;
+    text-align: center;
+    color:#3298dc;
+    margin-bottom: 1.5rem !important;
+}
+
+#message{
+    font-size: 100%;
+}
+
+#messageBox{
+    display: flex;
+    margin-bottom: .5rem !important;
+}
+#message-username{
+    color: #3298dc;
+    font-size: 110%;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#message-msg{
+    color: black;
+    font-size: 110%;
+    margin-left: .5rem !important;
+    word-wrap: break-word !important;
+    word-break: break-all;
+    padding: .5rem;
+    background: white;
+    border-radius: 1rem;
+    width: fit-content !important;
+    height: fit-content;
+    margin:auto;
+    margin-right: 0rem !important;
+}
+
+#send-icon{
+    margin: auto !important;
+    margin-bottom: 1rem !important;
+    margin-right: .4rem !important;
+
+}
